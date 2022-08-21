@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>money master practis task</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body>
+    <h1 class="text-3xl font-bold text-center my-4	">Money Master</h1>
+    <div class="text-center bg-slate-100 w-1/2 mx-auto py-4 mb-5">
+        <h5>Income</h5>
+        <label for="Income:">Income:</label>
+        <input type="text" name="" id="income" class="inline-block my-4">
+        <h5>Expenses</h5>
+        <label for="Food:">Food:</label>
+        <input type="text" name="" id="food" class="inline-block mx-auto my-4"><br>
+        <label for="Rent:">Rent:</label>
+        <input type="text" name="" id="rent" class="inline-block mx-auto my-4"><br>
+        <label for="Clothes:">Clothes:</label>
+        <input type="text" name="" id="clothes" class="inline-block mx-auto my-4"><br>
+        <button id="btn-calculate" class="my-2 bg-sky-500 py-1 px-8 text-white	">Calculate</button>
+        <h5 class="my-4">Total Expenses: <span id="total-expenses">00</span> </h5>
+        <h5 class="my-4">Balance: <span id="balance">00</span></h5>
+        <label for="Save:">Save:</label>
+        <input type="text" name="" id="saving-persent" class="inline-block mx-auto my-4 w-1/5">
+        <span>%</span>
+        <button id="btn-Save" class="my-2 bg-sky-500 py-px px-8 text-white	">Save</button>
+        <h5>Saving Amount: <span id="saved-amount">00</span> </h5>
+        <h5 class="py-4">Remaining Balance: <span id="remaining-balance">00</span></h5>
+    </div>
+
+    <script src="comon.js"></script>
+    <script src="calculate.js"></script>
+    <script src="save.js"></script>
+</body>
+</html>
